@@ -33,6 +33,21 @@ class AuthenticatedSessionController extends Controller
             return redirect('admin/dashboard');
         }
 
+        if($request->user()->usertype === 'commercial')
+        {
+            return redirect('commercial/dashboard');
+        }
+
+        if($request->user()->usertype === 'delivery')
+        {
+            return redirect('delivery/dashboard');
+        }
+
+        if($request->user()->usertype === 'super')
+        {
+            return redirect('super/dashboard');
+        }
+
         return redirect()->intended(route('dashboard'));
     }
 

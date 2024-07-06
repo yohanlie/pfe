@@ -1,14 +1,12 @@
 <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Anon - eCommerce Website</title>
+  <title>FlowerShop</title>
   <script src="{{asset('js/script.js')}}" defer></script>
   <script src="https://kit.fontawesome.com/753b971fb9.js" crossorigin="anonymous"></script>
   <!--
     - favicon
   -->
-  <link rel="shortcut icon" href="{{asset('images/logo/favicon.ico')}}" type="image/x-icon">
-
   <!--
     - custom css link
   -->
